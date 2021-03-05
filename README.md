@@ -42,3 +42,7 @@ Besides the required building blocks, we also implemented:
 - Documentation about each strategy
 - The possibility to include/exclude these additions
 - The possibility to customize the number of iterations and strategies
+
+## How to use
+
+To use this code, just clone/download this repository, then run `# python `
