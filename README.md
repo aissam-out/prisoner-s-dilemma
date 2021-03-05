@@ -9,4 +9,6 @@ Simultaneously, the prosecutors offer each prisoner a bargain. Each prisoner is 
 - If A remains silent but B betrays A, A will serve three years in prison and B will be set free
 - If A and B both remain silent, both of them will serve only one year in prison (on the lesser charge).
 
-In this project, we are implementing a slightly different version of the Prisoner's dilemma
+In this project, we are implementing a slightly different version of the Prisoner's dilemma: We actually keep the same concept and change the rewards to:
+
+
