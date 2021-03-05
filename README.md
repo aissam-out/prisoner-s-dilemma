@@ -47,4 +47,5 @@ Besides the required building blocks, we also implemented:
 
 To use this code, just clone/download this repository, then run `# python prisonersdilemma.py` to start playing.
 
-
+---
+:rotating_light: Feel free to make pull requests to this project if you want to contribute ..
