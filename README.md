@@ -34,3 +34,5 @@ In this implementation, the opponent picks (randomly) one of the following strat
 Besides the required building blocks, we also implemented:
 
 - A welcoming introduction to the game
+- Documentation about each strategy
+- 
