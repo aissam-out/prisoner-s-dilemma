@@ -25,3 +25,4 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Susej:** Inverted Jesus: The opponent always defects.
 
+**- Tit For Tat:** The opponent starts by cooperating, then cooperates if you cooperated, and defects otherwise
