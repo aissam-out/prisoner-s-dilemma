@@ -1,7 +1,7 @@
 # Prisoner's dilemma
 
 <p>
-  <img width="150" align='right' src="https://cdn.britannica.com/s:800x450,c:crop/43/186443-138-A4E61711/overview-prisoners-dilemma.jpg">
+  <img width="350" align='right' src="https://cdn.britannica.com/s:800x450,c:crop/43/186443-138-A4E61711/overview-prisoners-dilemma.jpg">
   <!--- credits to [https://cdn.britannica.com] --->
 </p>
 
