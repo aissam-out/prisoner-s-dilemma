@@ -35,4 +35,5 @@ Besides the required building blocks, we also implemented:
 
 - A welcoming introduction to the game
 - Documentation about each strategy
-- 
+- The possibility to include/exclude these additions
+- The possibility to customize the number of iterations and strategies
