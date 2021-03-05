@@ -19,4 +19,5 @@ In this project, we are implementing a slightly different version of the Prisone
 
 In this implementation, the opponent picks (randomly) one of the following strategies, and plays a 10 iterations game.
 
+**- Random action:** The opponent acts randomly.
 
