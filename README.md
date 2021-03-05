@@ -23,3 +23,5 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Jesus:** The opponent always cooperates.
 
+**- Susej:** Inverted Jesus: The opponent always defects.
+
