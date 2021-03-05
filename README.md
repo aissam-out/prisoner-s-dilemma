@@ -11,4 +11,6 @@ Simultaneously, the prosecutors offer each prisoner a bargain. Each prisoner is 
 
 In this project, we are implementing a slightly different version of the Prisoner's dilemma: We actually keep the same concept and change the rewards to:
 
-
+- If they both betray each other, they get nothing.
+- If one cooperates whereas the other defects, the former get 5 points while the latter get nothing.
+- If they both cooperate, each of them gets 3 points.
