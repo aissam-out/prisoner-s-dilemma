@@ -21,3 +21,5 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Random action:** The opponent acts randomly.
 
+**- Jesus:** The opponent always cooperates.
+
