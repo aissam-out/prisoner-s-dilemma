@@ -1,5 +1,10 @@
 # Prisoner's dilemma
 
+<p>
+  <img width="150" align='right' src="https://cdn.britannica.com/s:800x450,c:crop/43/186443-138-A4E61711/overview-prisoners-dilemma.jpg">
+  <!--- credits to [https://cdn.britannica.com] --->
+</p>
+
 The prisoners’ dilemma is the best-known game of strategy in Game Theory. In its traditional version, two members of a criminal gang are arrested and imprisoned. Each prisoner is in solitary confinement with no means of communicating with the other. 
 
 Simultaneously, the prosecutors offer each prisoner a bargain. Each prisoner is given the opportunity either to betray the other by testifying that the other committed the crime, or to cooperate with the other by remaining silent [[ref]](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma). The possible outcomes are:
