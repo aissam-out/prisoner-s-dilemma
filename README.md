@@ -14,3 +14,9 @@ In this project, we are implementing a slightly different version of the Prisone
 - If they both betray each other, they get nothing.
 - If one cooperates whereas the other defects, the former get 5 points while the latter get nothing.
 - If they both cooperate, each of them gets 3 points.
+
+## Strategies
+
+In this implementation, the opponent picks (randomly) one of the following strategies, and plays a 10 iterations game.
+
+
