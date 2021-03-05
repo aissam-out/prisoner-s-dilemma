@@ -45,4 +45,6 @@ Besides the required building blocks, we also implemented:
 
 ## How to use
 
-To use this code, just clone/download this repository, then run `# python `
+To use this code, just clone/download this repository, then run `# python prisonersdilemma.py` to start playing.
+
+
