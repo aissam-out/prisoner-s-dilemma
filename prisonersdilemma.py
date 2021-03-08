@@ -6,21 +6,22 @@ def playmultiple(iterations, follow_up=False):
     # score of the two players
     sum_y = 0
     sum_o = 0
-    # last input from the user
-    last_you = None
+    # history of inputs from the user
+    hist_you = []
+    # history of inputs from the opponent
+    hist_opp = []
     # randomly select a strategy
-    strategy = unknow_strategy()
+    strategy = unknown_strategy()
 
     # intro to the game
-    welcome, rules = introduction(extra=True)
-    print(welcome)
-    print(rules)
+    introd = introduction(extra=True)
+    print(introd)
 
     # play n times
     for i in range(iterations):
         # generate the opponent action
-        opp = opponent(last_you, strategy)
-        # iput in validate the user's choice
+        opp = opponent(hist_you, hist_opp, sum_y, sum_o, iterations, i, strategy)
+        # input in validate the user's choice
         you = input('Your turn: ')
         you = check_input(you)
         # score the two players
@@ -30,8 +31,9 @@ def playmultiple(iterations, follow_up=False):
         # print an adequate message
         msg = message(you, opp) + f"Score: {sum_y}:{sum_o}"
         print(msg)
-        # keep the last input from the user to the next iteration
-        last_you = you
+        # append the last input from the user & opponent
+        hist_you.append(you)
+        hist_opp.append(opp)
 
     # reveal the opponent's strategy
     reveal_strategy = f"Your opponent was using {strategy.__name__} strategy."
