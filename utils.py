@@ -1,12 +1,10 @@
 from strategies import *
 from extra_text import *
 
-c_choices = ["C", "Cooperate", "c", "cooperate"]
-d_choices = ["D", "Defect", "d", "defect"]
-all_strategies = [random_action, jesus, susej, tit_for_tat]
-yes_intents = ["yes", "yeah", "sure", "y"]
-no_intents = ["no", "nah", "n"]
-
+grp_1 = [random_action, jesus, susej, tit_for_tat, aggressive_tit_for_tat, dolphin, lite_dolphin, kind_lizard, unkind_lizard]
+grp_2 = [judas, saduj, vampire]
+grp_3 = [split, noob_mentalist]
+all_strategies = grp_1 + grp_2 + grp_3
 
 def evaluate(you, opp):
     '''
@@ -21,17 +19,24 @@ def evaluate(you, opp):
 
     return y, o
 
-def opponent(you, strategy=random_action):
+def opponent(hist_you, hist_opp, sum_y, sum_o, iterations, i, strategy):
     '''
-    this function plays the action of the opponent
-    if no strategy is specified, the opponent acts randomly
+    plays the action of the opponent.
     '''
-    opp = strategy(you)
-
+    if strategy in grp_1:
+        opp = strategy(hist_you, hist_opp)
+    elif strategy in grp_2:
+        opp = strategy(hist_you, sum_o, sum_y)
+    elif strategy in grp_3:
+        opp = strategy(hist_you, iterations, i)
+    else:
+        opp = random_action()
     return opp
 
 def check_input(you):
-    '''validate the input'''
+    '''
+    validate the input.
+    '''
     # the input corresponds to cooperation
     if you in c_choices:
         you = 'C'
@@ -45,15 +50,18 @@ def check_input(you):
 
     return you
 
-def unknow_strategy():
+def unknown_strategy():
     '''
     IMPORTANT: THIS IS A META STRATEGY
     random strategy
     '''
+    ## This could be calibrated using a custom probability distribution
     return random.choice(all_strategies)
 
 def message(you, opp):
-    '''personalized answers after each iteration'''
+    '''
+    personalized answers after each iteration
+    '''
 
     if (you == 'C' and opp == 'C'):
         msg =  "You have chosen to cooperate, your opponent too. "
@@ -67,7 +75,9 @@ def message(you, opp):
     return msg
 
 def doc_strategies(strategy):
-    '''know more about each strategy'''
+    '''
+    know more about each strategy
+    '''
 
     answer = input(f"\nDo you want to know more about {strategy.__name__} strategy? ")
     if answer in yes_intents:
@@ -78,18 +88,15 @@ def doc_strategies(strategy):
     return result
 
 def introduction(extra=False):
-    '''welcome + explain the game concept and rules'''
-
-    # welcome message
-    welcome = "Hey! welcome to the prisoner's dilemma game\n"
-    print(welcome)
-    answer = ""
+    '''
+    welcome + explain the game concept and rules
+    '''
 
     # game concept and rules
     if extra:
-        if input("Do you want to know more about the prisoner's dilemma?") in yes_intents:
+        if input("Hey! welcome to the prisoner's dilemma game\n\nDo you want to know more about the prisoner's dilemma?") in yes_intents:
             answer = intro
         else:
-            answer = "Ok. Let's play now!"
+            answer = "\nOk. Let's play now!"
 
-    return welcome, answer
+    return answer
