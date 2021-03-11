@@ -50,6 +50,8 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Kind Lizard:** The opponent adapts to your average choices. If your number of cooperations equals your number of betrayals, they cooperate.
 
+**- Unkind Lizard:** The opponent adapts to your average choices. If your number of cooperations equals your number of betrayals, they defect.
+
 
 
 ## Extra:
