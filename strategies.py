@@ -142,7 +142,7 @@ def noob_mentalist(hist_you, iterations, i, *args):
         return 'C'
 
     elif (hist_you[0] == 'C') and (hist_you[1] == 'D'):
-        ## assume X
+        ## assume Tit For Tat
         if (i == iterations-1):
             return 'D'
         else:
