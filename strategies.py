@@ -153,5 +153,5 @@ def noob_mentalist(hist_you, iterations, i, *args):
         return 'C'
 
     elif (hist_you[0] == 'D') and (hist_you[1] == 'D'):
-        ## assume X
+        ## assume Susej
         return 'D'
