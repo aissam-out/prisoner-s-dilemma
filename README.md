@@ -44,6 +44,10 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Saduj:** Inverted Judas: The opponent defects if they are winning, and cooperates if they are losing.
 
+**- Split:** The opponent cooperates in the beginning, then changes behavior abruptly and starts defecting for the rest of the game.
+
+
+
 ## Extra:
 
 Besides the required building blocks, we also implemented:
