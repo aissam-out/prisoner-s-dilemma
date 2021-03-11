@@ -123,7 +123,7 @@ def unkind_lizard(hist_you, *args):
         return 'C'
 
 def noob_mentalist(hist_you, iterations, i, *args):
-    '''##
+    '''
     The opponent tries to read your strategy by first defecting then cooperating.
     If you cooperate both times, they assume jesus and begin cooperating.
     If you defect both times, they assume susej and begin defecting.
