@@ -24,6 +24,9 @@ In this project, we are implementing a slightly different version of the Prisone
 
 **Game goal:** Exceed 30 points, and have more points than the opponent.
 
+You can look at it this way: You are sentenced to 30 years, each point saves you one year of prison, and beyond 30 each point is worth a fixed amount of money.
+So the goal is to first get out of prison, then to maximize the amount of money.
+
 ## Strategies:
 
 In this implementation, the opponent picks (randomly) one of the following strategies, and plays a 10 iterations game.
