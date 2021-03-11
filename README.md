@@ -48,6 +48,8 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Vampire:** The opponent acts randomly, but once they got a score superior to yours, they don't cooperate anymore.
 
+**- Kind Lizard:** The opponent adapts to your average choices. If your number of cooperations equals your number of betrayals, they cooperate.
+
 
 
 ## Extra:
