@@ -38,9 +38,9 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Dolphin:** The opponent have a long memory. If you betray him, the opponent will never cooperate with you again.
 
-**Lite Dolphin:** The opponent have a long memory, but they turn a blind eye to a single betrayal. If you betray him more than once, the opponent will never cooperate with you again.
+**- Lite Dolphin:** The opponent have a long memory, but they turn a blind eye to a single betrayal. If you betray him more than once, the opponent will never cooperate with you again.
 
-**Judas:** The opponent cooperates if they are winning, and defects if they are losing.
+**- Judas:** The opponent cooperates if they are winning, and defects if they are losing.
 
 ## Extra:
 
