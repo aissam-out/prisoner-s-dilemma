@@ -54,13 +54,13 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Noob Mentalist:** The opponent tries to read your strategy by first defecting then cooperating.
 
-    If you cooperate both times, they assume jesus and begin cooperating.
+  - If you cooperate both times, they assume jesus and begin cooperating.
 
-    If you defect both times, they assume susej and begin defecting.
-    
-    If you cooperate then defect, they assume tit for tat and begin cooperating until the last round then defect.
-    
-    If you defect then cooperate, they assume noob mentalist and begin cooperating.
+  - If you defect both times, they assume susej and begin defecting.
+  
+  - If you cooperate then defect, they assume tit for tat and begin cooperating until the last round then defect.
+  
+  - If you defect then cooperate, they assume noob mentalist and begin cooperating.
 
 ## Extra:
 
