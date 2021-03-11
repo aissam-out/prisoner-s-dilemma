@@ -42,6 +42,8 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Judas:** The opponent cooperates if they are winning, and defects if they are losing.
 
+**- Saduj:** Inverted Judas: The opponent defects if they are winning, and cooperates if they are losing.
+
 ## Extra:
 
 Besides the required building blocks, we also implemented:
