@@ -34,6 +34,8 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Tit For Tat:** The opponent starts by cooperating, then cooperates if you cooperated, and defects otherwise
 
+**- Aggressive Tit For Tat:** The opponent starts by defecting, then cooperates if you cooperated last time, and defects otherwise.
+
 ## Extra:
 
 Besides the required building blocks, we also implemented:
