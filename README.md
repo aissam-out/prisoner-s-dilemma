@@ -46,6 +46,8 @@ In this implementation, the opponent picks (randomly) one of the following strat
 
 **- Split:** The opponent cooperates in the beginning, then changes behavior abruptly and starts defecting for the rest of the game.
 
+**- Vampire:** The opponent acts randomly, but once they got a score superior to yours, they don't cooperate anymore.
+
 
 
 ## Extra:
