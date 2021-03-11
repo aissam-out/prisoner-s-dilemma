@@ -22,7 +22,7 @@ In this project, we are implementing a slightly different version of the Prisone
 - If one cooperates whereas the other defects, the former get 5 points while the latter get nothing.
 - If they both cooperate, each of them gets 3 points.
 
-:trophy: **Game goal:** Exceed 30 points, and maximize your result.
+:trophy: **Game goal:** Exceed 30 points (in a 10-round game), and maximize your result.
 
 You can look at it this way: You are sentenced to 30 years, each point saves you one year of prison, and beyond 30 each point is worth a fixed amount of money.
 So the goal is to first get out of prison, then to maximize the amount of money.
