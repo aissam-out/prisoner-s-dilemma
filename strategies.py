@@ -138,7 +138,7 @@ def noob_mentalist(hist_you, iterations, i, *args):
         return 'C'
 
     elif (hist_you[0] == 'C') and (hist_you[1] == 'C'):
-        ## assume X
+        ## assume Jesus
         return 'C'
 
     elif (hist_you[0] == 'C') and (hist_you[1] == 'D'):
