@@ -85,4 +85,5 @@ To use this code, just clone/download this repository, then run `# python prison
 
 ## IMPORTANT!
 
-The directory "extra" contains images that are used by other applications
+The directory "extra" contains images that are used by other applications!
+DO NOT DELETE THEM!
