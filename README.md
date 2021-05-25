@@ -82,8 +82,6 @@ Besides the required building blocks, we also implemented:
 
 :warning: The directory [extra_assets/](extra_assets/) contains images used by other applications that are online.
 
-DO NOT DELETE THEM!
-
 ## How to use
 
 To use this code, just clone/download this repository, then run `# python prisonersdilemma.py` to start playing.
