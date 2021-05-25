@@ -67,7 +67,7 @@ In this implementation, the opponent picks (randomly) one of the following strat
   
   - If you defect then cooperate, they assume _"noob mentalist"_ and begin cooperating.
 
-**- Traitor:**
+**- Traitor:** The opponent always cooperates except in the last iteration.
 
 ## Extra:
 
