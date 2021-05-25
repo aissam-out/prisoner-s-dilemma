@@ -85,6 +85,6 @@ To use this code, just clone/download this repository, then run `# python prison
 
 ## IMPORTANT!
 
-The directory [extra_assets/](extra_assets/) contains images used by other applications that are online.
+:warning: The directory [extra_assets/](extra_assets/) contains images used by other applications that are online.
 
 DO NOT DELETE THEM!
